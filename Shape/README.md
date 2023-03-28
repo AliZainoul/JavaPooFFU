@@ -16,19 +16,21 @@ Tree of your directory structure:
   javac -d bin src/*.java main.java && java -cp bin main
   ```
 
-  The first command will compile all .java files inside src then main.java,
+  The first command will compile all ```.java``` files inside ```src```
+  then ```main.java```,
   ```
   javac -d bin src/*.java main.java
   ```
-  the ```-d bin``` option is creating a directory named bin (if it not existing)
-  in order to generate the .class files (see tree below)
-  the AND ```&&``` operator is in order to process the next command:
+  the ```-d bin``` option is for creating a directory named ```bin```
+  (if it does not exist) in order to generate the ```.class``` files
+  (see tree below),
+  whereas the AND ```&&``` operator is in order to process the next command:
   ```
   java -cp bin main
   ```
-  This command is used to specify the classpath (bin).
+  This command is used to specify the classpath ```bin```.
   The classpath is a list of directories and JAR files where Java can find
-  the compiled Java class files that the (main) program needs to execute.
+  the compiled Java class files that the main program needs to execute.
 
 
 # After compilation, the architecture tree will be the following:
@@ -49,5 +51,5 @@ Tree of your directory structure:
     └── Triangle.java
 ```
 
-- Remark that all class files are within the bin directory,
-  it is a good usage to do so.
+- Note that all class files are in the ```bin``` directory, which is
+  good practice.
