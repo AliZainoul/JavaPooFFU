@@ -1,19 +1,17 @@
 // Afin de faire hériter B de A, il faut rajouter le mot clé: extends
 // Ainsi: B héritera de la classe A.
 // A va être la classe mère et B la classe fille.
-public class ClassB extends ClassA{
+public class ClassB extends ClassA {
   // Members
   private int privateintB;
   protected int protectedintB;
   public int publicintB;
   int defaultintB;
-
   public ClassB(
     int _privateintA, int _protectedintA,
     int _publicintA, int _defaultintA,
     int _privateintB, int _protectedintB,
-    int _publicintB, int _defaultintB
-  )
+    int _publicintB, int _defaultintB)
   {
   // On va appeler notre constructeur de classe A grâce au mot-clé super.
     super(_privateintA, _protectedintA, _publicintA, _defaultintA);
@@ -22,8 +20,6 @@ public class ClassB extends ClassA{
     this.publicintB = _publicintB;
     this.defaultintB = _defaultintB;
   }
-
-
   // Methods
   // Getters
   public int getprivateint(){ return privateintB;}
@@ -39,6 +35,7 @@ public class ClassB extends ClassA{
   }
   public void publicMethod(){
     System.out.println("This is class B, I am public Method");
+    this.privateMethod();
   }
   void defaultMethod(){
     System.out.println("This is class B, I am default Method");

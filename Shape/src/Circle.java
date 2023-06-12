@@ -34,7 +34,8 @@ public class Circle extends Shape {
   //public void setName(String _name) {this.name = _name;}
 
   // Helpers
-  public void printCircle()
+  @Override
+  public void printShape()
   {
     System.out.println(
     "Name of circle: "  + this.getName() +

@@ -1,22 +1,17 @@
-public class ClassA{
+public class ClassA {
   // Members
   private int privateintA;
   protected int protectedintA;
   public int publicintA;
   int defaultintA;
-
   // Constructors
-  public ClassA(
-    int _privateintA, int _protectedintA,
-    int _publicintA, int _defaultintA
-  )
+  public ClassA (int _privateintA, int _protectedintA, int _publicintA, int _defaultintA)
   {
     this.privateintA = _privateintA;
     this.protectedintA = _protectedintA;
     this.publicintA = _publicintA;
     this.defaultintA = _defaultintA;
   }
-
   // Methods
   // Getters
   public int getprivateint(){ return privateintA;}
@@ -32,6 +27,7 @@ public class ClassA{
   }
   public void publicMethod(){
     System.out.println("This is class A, I am public Method");
+    this.privateMethod();
   }
   void defaultMethod(){
     System.out.println("This is class A, I am default Method");

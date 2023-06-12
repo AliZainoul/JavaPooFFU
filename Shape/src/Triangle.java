@@ -22,7 +22,7 @@ public class Triangle extends Shape {
   {
     super(_name);
     if (_a >= 0 && _b >= 0 && _c >= 0)
-    {
+    { 
       this.a = _a;
       this.b = _b;
       this.c = _c;
@@ -50,13 +50,13 @@ public class Triangle extends Shape {
   //public void setName(String _name) {this.name =  _name;}
 
   // Helpers
-  public void printTriangle()
+  @Override
+  public void printShape()
   {
     System.out.println(
     "Name of Triangle: "  + this.getName() +
     ", Vertexes = (" + this.getA() + ", " + this.getB() + ", " + this.getC()
     + ")" + "Area of my Triangle = " + this.calculateArea()
-
     );
   }
 }
