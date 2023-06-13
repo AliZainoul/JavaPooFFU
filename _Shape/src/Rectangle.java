@@ -8,7 +8,8 @@ public class Rectangle extends Shape {
 
   // Constructors
   // Default Constructor
-  // public Rectangle(){}
+  //public Rectangle(){}
+
   public Rectangle()
   {
     super("");
@@ -30,7 +31,7 @@ public class Rectangle extends Shape {
   @Override
   public double calculateArea()
   {
-    return this.getHeigth()*this.getWidth();
+    return (  (this.getHeigth())  *  (this.getWidth())  );
   }
 
   // Getters
@@ -44,12 +45,15 @@ public class Rectangle extends Shape {
   //public void setName(String _name) {this.name =  _name;}
 
   // Helpers
-  public void printRectangle()
+  @Override
+  public void printShape()
   {
     System.out.println(
-    "Name of Rectangle: "  + this.getName() +
-    ", Sides = (" + this.getWidth() + ", " +  this.getHeigth() + ")" +
-    ", Area of my Rectangle = " + this.calculateArea()
+    "--------------------------------------------------"  + "\n" 
+    + "Name of Rectangle: "  + this.getName() 
+    + ", Sides = (" + this.getWidth() + ", " +  this.getHeigth() + ")" + "\n" 
+    + "Area of my Rectangle = " + this.calculateArea() + "\n" 
+    + "--------------------------------------------------"
     );
   }
 }

@@ -38,9 +38,11 @@ public class Circle extends Shape {
   public void printShape()
   {
     System.out.println(
-    "Name of circle: "  + this.getName() +
-    ", radius = " + this.getRadius() +
-    "Area of my Circle = " + this.calculateArea()
+    "--------------------------------------------------" + "\n" 
+    + "Name of circle: "  + this.getName() + "\n" 
+    + ", radius = " + this.getRadius() + "\n" 
+    + "Area of my Circle = " + this.calculateArea()  + "\n" 
+    + "--------------------------------------------------" + "\n" 
     );
   }
 }

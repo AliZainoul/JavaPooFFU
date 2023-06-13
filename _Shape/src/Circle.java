@@ -2,7 +2,7 @@ package src;
 
 public class Circle extends Shape {
   // Members
-  double radius;
+  private double radius;
 
   // Constructors
   // Default Constructor
@@ -14,8 +14,7 @@ public class Circle extends Shape {
   public Circle(double _radius, String _name)
   {
     super(_name);
-    if (_radius >= 0)
-      this.radius = _radius;
+    this.radius = _radius;
   }
 
   // Methods
@@ -37,12 +36,15 @@ public class Circle extends Shape {
   //public void setName(String _name) {this.name = _name;}
 
   // Helpers
-  public void printCircle()
+  @Override
+  public void printShape()
   {
     System.out.println(
-    "Name of circle: "  + this.getName() +
-    ", radius = " + this.getRadius() +
-    ", Area of my Circle = " + this.calculateArea()
+    "--------------------------------------------------" + "\n" 
+    + "Name of circle: "  + this.getName() + "\n" 
+    + ", radius = " + this.getRadius() + "\n" 
+    + "Area of my Circle = " + this.calculateArea()  + "\n" 
+    + "--------------------------------------------------" + "\n" 
     );
   }
 }

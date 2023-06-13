@@ -9,11 +9,3 @@ public abstract class Shape
   abstract public double calculateArea();
   abstract public void printShape();
 }
-
-/*
-  super(name)!
-  override
-  abstract
-  héritage simple
-  encapsulation
-*/

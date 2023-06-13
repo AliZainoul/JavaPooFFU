@@ -54,9 +54,11 @@ public class Triangle extends Shape {
   public void printShape()
   {
     System.out.println(
-    "Name of Triangle: "  + this.getName() +
-    ", Vertexes = (" + this.getA() + ", " + this.getB() + ", " + this.getC()
-    + ")" + "Area of my Triangle = " + this.calculateArea()
+    "-------------------------------------------------- \n"  
+    + "Name of Triangle: "  + this.getName() + "\n" 
+    + ", Vertexes = (" + this.getA() + ", " + this.getB() + ", " + this.getC() + ")" + "\n" 
+    + "Area of my Triangle = " + this.calculateArea() + "\n" 
+    + "--------------------------------------------------" + "\n" 
     );
   }
 }

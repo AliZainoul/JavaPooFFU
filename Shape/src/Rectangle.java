@@ -47,9 +47,11 @@ public class Rectangle extends Shape {
   public void printShape()
   {
     System.out.println(
-    "Name of Rectangle: "  + this.getName() +
-    ", Sides = (" + this.getWidth() + ", " +  this.getHeigth()
-    + ")" + "Area of my Rectangle = " + this.calculateArea()
+    "--------------------------------------------------"  + "\n" 
+    + "Name of Rectangle: "  + this.getName() 
+    + ", Sides = (" + this.getWidth() + ", " +  this.getHeigth() + ")" + "\n" 
+    + "Area of my Rectangle = " + this.calculateArea() + "\n" 
+    + "--------------------------------------------------"
     );
   }
 }
