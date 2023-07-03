@@ -29,7 +29,7 @@ Tout le matériel du cours, y compris les exemples de code et les exercices prat
 
 ## Support
 
-Si vous avez des questions ou des préoccupations tout au long du cours, n'hésitez pas à les poser dans les commentaires ou à contacter l'équipe pédagogique du FFU. Nous sommes là pour vous aider et vous guider dans votre apprentissage.
+Si vous avez des questions ou des préoccupations tout au long du cours, n'hésitez pas à les poser dans les commentaires ou à me contacter par email: ‘‘‘ ali.zainoul.az@gmail.com ‘‘‘. Nous sommes là pour vous aider et vous guider dans votre apprentissage.
 
 ## Bonne chance !
 
