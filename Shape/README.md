@@ -13,7 +13,7 @@ Tree of your directory structure:
 # Compile the program with this command:
   - Open a command prompt and type in:
   ```
-  javac -d bin src/*.java Main.java && java -cp bin main
+  javac -d bin src/*.java Main.java && java -cp bin Main
   ```
 
   The first command will compile all ```.java``` files inside ```src```
@@ -30,7 +30,7 @@ Tree of your directory structure:
   ```
   This command is used to specify the classpath ```bin```.
   The classpath is a list of directories and JAR files where Java can find
-  the compiled Java class files that the main program needs to execute.
+  the compiled Java class files that the Main program needs to execute.
 
 
 # After compilation, the architecture tree will be the following:
